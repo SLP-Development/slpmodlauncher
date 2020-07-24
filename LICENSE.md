@@ -1,15 +1,10 @@
-#-------------------------------------------------------------------------------
-@author Steev / SLPDevelopment (SLPNetwork)
-
-Copyright 2018-2020 
-
-All rights reserved.
-
-Distribution of the software in any form is only allowed with
-
-explicit, prior permission from the owner.
-
-#-------------------------------------------------------------------------------
+# -------------------------------------------------------------------------------
+# @author Steev / SLPDevelopment (SLPNetwork)
+# Copyright 2018-2020 
+# All rights reserved.
+# Distribution of the software in any form is only allowed with
+# explicit, prior permission from the owner.
+# -------------------------------------------------------------------------------
 @author Steev
 
 This code is the property of and owned and copyrighted by SLPDevelopment and Steev.
