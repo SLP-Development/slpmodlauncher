@@ -1,0 +1,32 @@
+{
+    "_comment":"Front Page",
+    "btnSettings":"<i class=\"fas fa-cog\"></i> Settings",
+    "btnLaunch":"Launch",
+    "_comment":"Settings Page",
+    "setEmail":"Email:",
+    "setPassword":"Password:",
+    "setJavaNotification":"To be able to use more then <strong>1,5 GB Ram</strong> you need <strong style=\"text-decoration: underline; color: grey;\"><a style=\"text-decoration: underline; color: grey;\" href=\"https://javadl.oracle.com/webapps/download/AutoDL?BundleId=240728_5b13a193868b4bf28bcb45c792fce896\" target=\"_blank\" onclick=\"alert('Java 8 64Bit wird runtergeladen!')\">Java 64bit</a></strong>",
+    "setMinRam":"Min Ram (MB):",
+    "setMaxRam":"Max Ram (MB):",
+    "AutoPatchSettings":"Auto Patch Settings:",
+    "setLanguage":"Language Settings",
+    "SetConsole":"Console Settings:",
+    "setBtnBack":"<i class=\"fas fa-caret-square-left\"></i> Back",
+    "setBtnStore":"<i class=\"far fa-save\"></i> Store",
+    "errAccountMissing":{
+        "title":"Your Account is Missing!",
+        "body":"Somehow your account is missing! Just add it in your Settings."
+    },
+    "errEmailMissing":{
+        "title":"Your Email is missing!",
+        "body":"It appears your email is not specified! Just add it in your Settings."
+    },
+    "errPasswordMissing":{
+        "title":"Your Password is missing!",
+        "body":"You Seem to somehow have forgot to add you Password! Fix that in your Settings."
+    },
+    "errGameAllreadyRunning":{
+        "title":"Game is running!",
+        "body":"It seems like minecraft allready is running!"
+    }
+}

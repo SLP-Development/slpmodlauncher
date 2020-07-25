@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" type="text/css" href="../../assets/style/app.css">
+        <script src="https://kit.fontawesome.com/0d5e436283.js"></script>
+    </head>
+    <body>
+        <div class="topButtonLayout">
+            <button id="btn_close" class="btn btn_close"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="topLayout"><p style="position:absolute; color:white; font-weight:bold; top:-5px; left: 10px;">SLPMods v1.0</p></div>
+        <div class="sideLayout" style="overflow-y:scroll;">
+            <ul id="modList" style="padding: 10px 10px 10px 10px;">
+                <li class="modItem" id="vanilla" data-mp_id="vanilla">
+                    <img src="https://cdn.slpnetwork.de/img/sys/assets/minecraft.svg" width="50" height="50">
+                    <h2 style="color: white;">Minecraft Vanilla</h2>
+                </li>
+            </ul> 
+        </div>
+        <div class="modLayout" id="modLayout" style="background-image: url('2019-08-08_21.48.08.png'); background-size: cover; color:white; overflow-y: scroll; padding-right: 10px;">
+            <h1>Default Window</h1>
+        </div>
+        <div class="bottomLayout">            
+            <a class="btn_link" href="settings.html" id="settings"> <i class="fas fa-cog"></i> Settings</a> 
+            <div style="text-align: center; width: 100%;">
+                <button id="launch" class="btn btn_launch" style="text-align: center;">Launch</button> 
+            </div>
+        </div>
+        <script>require('../../assets/js/button.js');</script>
+        <script>require('../../assets/js/app.js');</script>
+    </body>
+</html>

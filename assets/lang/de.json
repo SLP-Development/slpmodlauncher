@@ -1,0 +1,32 @@
+{
+    "_comment":"Front Page",
+    "btnSettings":"<i class=\"fas fa-cog\"></i> Einstellungen",
+    "btnLaunch":"Spiel Starten",
+    "_comment":"Settings Page",
+    "setEmail":"E-Mail:",
+    "setPassword":"Passwort:",
+    "setJavaNotification":"Um mehr als <strong>1,5 GB Ram</strong> zuweisen zu können, muss <strong style=\"text-decoration: underline; color: grey;\"><a style=\"text-decoration: underline; color: grey;\" href=\"https://javadl.oracle.com/webapps/download/AutoDL?BundleId=240728_5b13a193868b4bf28bcb45c792fce896\" target=\"_blank\" onclick=\"alert('Java 8 64Bit wird runtergeladen!')\">Java 64bit</a></strong> Installiert sein",
+    "setMinRam":"Min Ram (MB):",
+    "setMaxRam":"Max Ram (MB):",
+    "AutoPatchSettings":"Auto Patch Einstellung:",
+    "setLanguage":"Sprach Einstellungen",
+    "SetConsole":"Konsolen Einstellungen:",
+    "setBtnBack":"<i class=\"fas fa-caret-square-left\"></i> Zurück",
+    "setBtnStore":"<i class=\"far fa-save\"></i> Speichern",
+    "errAccountMissing":{
+        "title":"Du hast keinen Account angegeben!",
+        "body":"Da wir jetzt erst eine settings.json erstellt haben, \nSolltest du vorher doch lieber in den einstellungen deinen account angeben!"
+    },
+    "errEmailMissing":{
+        "title":"Da fehlt noch was!",
+        "body":"Deine Account daten sind unvollständig.\nGehe in die Einstellungen um das zu ändern (E-Mail)"
+    },
+    "errPasswordMissing":{
+        "title":"Da fehlt noch was!",
+        "body":"Deine Account daten sind unvollständig.\nGehe in die Einstellungen um das zu ändern (Passwort)"
+    },
+    "errGameAllreadyRunning":{
+        "title":"Das Spiel Läuft schon!",
+        "body":"Das Spiel ist schon gestartet.\nSchließe dein Spiel um ein neues zu starten!"
+    }
+}
