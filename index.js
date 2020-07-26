@@ -24,7 +24,7 @@ createHomePath(fs,OSname);
 let mainWindow, consoleW, webBrowser = null;
 
 ipcMain.on("launch", (event, args) => {
-    launch(fs, OSname, electron, mclc, args, request, host, importSettings, importPacks, consoleW, mainWindow);
+    launch(fs, mclc.Authenticator, OSname, electron, mclc, args, request, host, importSettings, importPacks, consoleW, mainWindow);
 });
 
 function createWindow () {
@@ -95,7 +95,6 @@ autoUpdater.on('update-available', () => { sendStatusToWindow('Update available.
 autoUpdater.on('update-not-available', () => { sendStatusToWindow('Update not available.'); });
 autoUpdater.on('error', (err) => { sendStatusToWindow('Error in auto-updater. ' + err); });
 autoUpdater.on('download-progress', (progressObj) => {
-
     let log_message = "Download speed: " + progressObj.bytesPerSecond;
     log_message = log_message + ' - Downloaded ' + progressObj.percent + '%';
     log_message = log_message + ' (' + progressObj.transferred + "/" + progressObj.total + ')';

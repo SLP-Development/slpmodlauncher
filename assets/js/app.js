@@ -91,13 +91,12 @@ for(let i = 0; i < pack_list.length; i++){
     let modTitle = document.createTextNode(pack_list[i].name);
     let ul_modslist = document.getElementById('modList');
 
-
-
     modItem.addEventListener('click', () => {
         type = "modpack";
         selected = modItem.dataset.mp_id;
         modbody.innerHTML = "<h2>"+pack_list[selected].name+"</h2>"+"<small style=\"color: grey;\">Pack Version: "+pack_list[selected].packVersion+"</small><br><small style=\"color: grey;\">Empfohlener Ram: "+pack_list[selected].recommended+"</small><br>"+pack_list[selected].launcherBody;
         console.log(selected);
+        console.log(type);
     });
 
     modTitleTag.style.color = 'white';
@@ -122,9 +121,10 @@ for(let i = 0; i < pack_list.length; i++){
 ipcRenderer.on('launched', () => { btn_launch.disabled = true; btn_launch.innerHTML = "Startet"})     
 ipcRenderer.on('MinecraftClosed', () => { btn_launch.disabled = false; btn_launch.innerHTML = "Launch"})     
 //Launches the Instance
-if(type = "vanilla"){
+if(type != "modpack"){
     console.log("vanilla run");
 }else{
+    console.log("modpack Selected");
     btn_launch.addEventListener('click', (e) => { ipcRenderer.send('launch',[pack_list[selected].name, pack_list[selected].gameVersion, pack_list[selected].packLink, pack_list[selected].packVersion]);});
 }
 //btn_key.addEventListener('click', (e) => { ipcRenderer.send('inputCode',"true"); });  
