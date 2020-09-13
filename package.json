@@ -13,7 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "minecraft-launcher-core": "^3.14.6",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "request": "^2.88.0",
     "require-from-url": "^3.1.3"
   },
